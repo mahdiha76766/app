@@ -1,0 +1,24 @@
+{
+  "detector_is_ultralytics_yolo": true,
+  "model_family": "YOLOv12x",
+  "best_pt_exists": true,
+  "best_onnx_exists": true,
+  "best_onnx_path": "tools/model_assets/source/detector/best.onnx",
+  "ready_tflite_found": true,
+  "source_tflite": "tools/model_assets/tflite_out/best_float16.tflite",
+  "copied_to_assets": "assets/models/iran_plate_detector.tflite",
+  "windows_direct_yolo_tflite_export": false,
+  "conversion_path_used": "pt -> onnx (ultralytics) -> tflite (onnx2tf)",
+  "input_shape": [
+    1,
+    3,
+    320,
+    320
+  ],
+  "onnx_output_shape": [
+    1,
+    36,
+    2100
+  ],
+  "note": "Direct yolo export format=tflite fails on Windows (LiteRT). ONNX + onnx2tf succeeded."
+}

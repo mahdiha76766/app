@@ -1,0 +1,34 @@
+{
+  "mode": "auto",
+  "detector": {
+    "path": "assets/models/iran_plate_detector.tflite",
+    "inputWidth": 320,
+    "inputHeight": 320,
+    "confidenceThreshold": 0.35,
+    "iouThreshold": 0.45
+  },
+  "recognizer": {
+    "path": "assets/models/iran_plate_recognizer.tflite",
+    "inputWidth": 160,
+    "inputHeight": 48,
+    "confidenceThreshold": 0.65
+  },
+  "digitClassifier": {
+    "path": "assets/models/iran_plate_digit_classifier.tflite",
+    "inputWidth": 32,
+    "inputHeight": 48,
+    "classes": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+    "confidenceThreshold": 0.70
+  },
+  "letterClassifier": {
+    "path": "assets/models/iran_plate_letter_classifier.tflite",
+    "inputWidth": 40,
+    "inputHeight": 48,
+    "classes": ["ب", "ج", "د", "س", "ص", "ط", "ق", "ل", "م", "ن", "و", "ه", "ی"],
+    "confidenceThreshold": 0.65
+  },
+  "normalization": {
+    "plateWidth": 280,
+    "plateHeight": 64
+  }
+}

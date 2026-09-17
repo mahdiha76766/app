@@ -1,0 +1,902 @@
+{
+  "ok": true,
+  "detector": {
+    "repo": "makhresearch/persian-license-plate-detector",
+    "ok": true,
+    "local_dir": "tools/model_assets/source/detector",
+    "files": [
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/.gitignore",
+        "name": ".gitignore",
+        "ext": "",
+        "format": "unknown",
+        "size_bytes": 1
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/CACHEDIR.TAG",
+        "name": "CACHEDIR.TAG",
+        "ext": ".tag",
+        "format": "unknown",
+        "size_bytes": 195
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/.gitattributes.metadata",
+        "name": ".gitattributes.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 104
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/app.py.metadata",
+        "name": "app.py.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 104
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/best.pt.metadata",
+        "name": "best.pt.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00010.jpg.metadata",
+        "name": "day_00010.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00019.jpg.metadata",
+        "name": "day_00019.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00026.jpg.metadata",
+        "name": "day_00026.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00027.jpg.metadata",
+        "name": "day_00027.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00029.jpg.metadata",
+        "name": "day_00029.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00038.jpg.metadata",
+        "name": "day_00038.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00042.jpg.metadata",
+        "name": "day_00042.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00050.jpg.metadata",
+        "name": "day_00050.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00055.jpg.metadata",
+        "name": "day_00055.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00056.jpg.metadata",
+        "name": "day_00056.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00102.jpg.metadata",
+        "name": "day_00102.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00103.jpg.metadata",
+        "name": "day_00103.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00104.jpg.metadata",
+        "name": "day_00104.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00105.jpg.metadata",
+        "name": "day_00105.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00109.jpg.metadata",
+        "name": "day_00109.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00114.jpg.metadata",
+        "name": "day_00114.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00116.jpg.metadata",
+        "name": "day_00116.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00120.jpg.metadata",
+        "name": "day_00120.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00125.jpg.metadata",
+        "name": "day_00125.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00126.jpg.metadata",
+        "name": "day_00126.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00149.jpg.metadata",
+        "name": "day_00149.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00159.jpg.metadata",
+        "name": "day_00159.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00160.jpg.metadata",
+        "name": "day_00160.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00162.jpg.metadata",
+        "name": "day_00162.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00166.jpg.metadata",
+        "name": "day_00166.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00173.jpg.metadata",
+        "name": "day_00173.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00179.jpg.metadata",
+        "name": "day_00179.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00180.jpg.metadata",
+        "name": "day_00180.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00184.jpg.metadata",
+        "name": "day_00184.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00199.jpg.metadata",
+        "name": "day_00199.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00200.jpg.metadata",
+        "name": "day_00200.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00201.jpg.metadata",
+        "name": "day_00201.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00212.jpg.metadata",
+        "name": "day_00212.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00214.jpg.metadata",
+        "name": "day_00214.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/day_00222.jpg.metadata",
+        "name": "day_00222.jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (750).jpg.metadata",
+        "name": "night (750).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (751).jpg.metadata",
+        "name": "night (751).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (752).jpg.metadata",
+        "name": "night (752).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (753).jpg.metadata",
+        "name": "night (753).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (754).jpg.metadata",
+        "name": "night (754).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (765).jpg.metadata",
+        "name": "night (765).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (766).jpg.metadata",
+        "name": "night (766).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (767).jpg.metadata",
+        "name": "night (767).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (768).jpg.metadata",
+        "name": "night (768).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (769).jpg.metadata",
+        "name": "night (769).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (780).jpg.metadata",
+        "name": "night (780).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (781).jpg.metadata",
+        "name": "night (781).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (782).jpg.metadata",
+        "name": "night (782).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 127
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (783).jpg.metadata",
+        "name": "night (783).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/Persian_License_Plate_Images/night (784).jpg.metadata",
+        "name": "night (784).jpg.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/download/README.md.metadata",
+        "name": "README.md.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 104
+      },
+      {
+        "path": "tools/model_assets/source/detector/.cache/huggingface/trees/b78e3b3de6c23c97eb6fed32db5a83dcf69fc013.json",
+        "name": "b78e3b3de6c23c97eb6fed32db5a83dcf69fc013.json",
+        "ext": ".json",
+        "format": "config",
+        "size_bytes": 17125
+      },
+      {
+        "path": "tools/model_assets/source/detector/.gitattributes",
+        "name": ".gitattributes",
+        "ext": "",
+        "format": "unknown",
+        "size_bytes": 5649
+      },
+      {
+        "path": "tools/model_assets/source/detector/app.py",
+        "name": "app.py",
+        "ext": ".py",
+        "format": "unknown",
+        "size_bytes": 7563
+      },
+      {
+        "path": "tools/model_assets/source/detector/best.pt",
+        "name": "best.pt",
+        "ext": ".pt",
+        "format": "pytorch",
+        "size_bytes": 119237050
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00010.jpg",
+        "name": "day_00010.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 323966
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00019.jpg",
+        "name": "day_00019.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 253539
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00026.jpg",
+        "name": "day_00026.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 173724
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00027.jpg",
+        "name": "day_00027.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 260627
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00029.jpg",
+        "name": "day_00029.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 215241
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00038.jpg",
+        "name": "day_00038.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 229136
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00042.jpg",
+        "name": "day_00042.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 159360
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00050.jpg",
+        "name": "day_00050.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 217823
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00055.jpg",
+        "name": "day_00055.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 293496
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00056.jpg",
+        "name": "day_00056.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 235936
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00102.jpg",
+        "name": "day_00102.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 265883
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00103.jpg",
+        "name": "day_00103.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 262462
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00104.jpg",
+        "name": "day_00104.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 275051
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00105.jpg",
+        "name": "day_00105.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 289699
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00109.jpg",
+        "name": "day_00109.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 234155
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00114.jpg",
+        "name": "day_00114.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 232217
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00116.jpg",
+        "name": "day_00116.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 249991
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00120.jpg",
+        "name": "day_00120.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 248943
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00125.jpg",
+        "name": "day_00125.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 241520
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00126.jpg",
+        "name": "day_00126.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 243106
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00149.jpg",
+        "name": "day_00149.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 280799
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00159.jpg",
+        "name": "day_00159.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 183564
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00160.jpg",
+        "name": "day_00160.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 256674
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00162.jpg",
+        "name": "day_00162.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 336763
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00166.jpg",
+        "name": "day_00166.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 261664
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00173.jpg",
+        "name": "day_00173.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 149111
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00179.jpg",
+        "name": "day_00179.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 227805
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00180.jpg",
+        "name": "day_00180.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 248312
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00184.jpg",
+        "name": "day_00184.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 247428
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00199.jpg",
+        "name": "day_00199.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 327120
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00200.jpg",
+        "name": "day_00200.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 250705
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00201.jpg",
+        "name": "day_00201.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 300802
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00212.jpg",
+        "name": "day_00212.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 204619
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00214.jpg",
+        "name": "day_00214.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 345433
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/day_00222.jpg",
+        "name": "day_00222.jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 293679
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (750).jpg",
+        "name": "night (750).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 222424
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (751).jpg",
+        "name": "night (751).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 236606
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (752).jpg",
+        "name": "night (752).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 305381
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (753).jpg",
+        "name": "night (753).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 292666
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (754).jpg",
+        "name": "night (754).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 214467
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (765).jpg",
+        "name": "night (765).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 139494
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (766).jpg",
+        "name": "night (766).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 191128
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (767).jpg",
+        "name": "night (767).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 346474
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (768).jpg",
+        "name": "night (768).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 278723
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (769).jpg",
+        "name": "night (769).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 188523
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (780).jpg",
+        "name": "night (780).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 211898
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (781).jpg",
+        "name": "night (781).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 220619
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (782).jpg",
+        "name": "night (782).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 194008
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (783).jpg",
+        "name": "night (783).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 130865
+      },
+      {
+        "path": "tools/model_assets/source/detector/Persian_License_Plate_Images/night (784).jpg",
+        "name": "night (784).jpg",
+        "ext": ".jpg",
+        "format": "unknown",
+        "size_bytes": 227516
+      },
+      {
+        "path": "tools/model_assets/source/detector/README.md",
+        "name": "README.md",
+        "ext": ".md",
+        "format": "unknown",
+        "size_bytes": 1014
+      }
+    ],
+    "tflite_files": [],
+    "error": null
+  },
+  "recognizer": {
+    "repo": "hezarai/crnn-fa-license-plate-recognition",
+    "ok": true,
+    "local_dir": "tools/model_assets/source/recognizer",
+    "files": [
+      {
+        "path": "tools/model_assets/source/recognizer/.cache/huggingface/.gitignore",
+        "name": ".gitignore",
+        "ext": "",
+        "format": "unknown",
+        "size_bytes": 1
+      },
+      {
+        "path": "tools/model_assets/source/recognizer/.cache/huggingface/CACHEDIR.TAG",
+        "name": "CACHEDIR.TAG",
+        "ext": ".tag",
+        "format": "unknown",
+        "size_bytes": 195
+      },
+      {
+        "path": "tools/model_assets/source/recognizer/.cache/huggingface/download/.gitattributes.metadata",
+        "name": ".gitattributes.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 104
+      },
+      {
+        "path": "tools/model_assets/source/recognizer/.cache/huggingface/download/model.pt.metadata",
+        "name": "model.pt.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 128
+      },
+      {
+        "path": "tools/model_assets/source/recognizer/.cache/huggingface/download/model_config.yaml.metadata",
+        "name": "model_config.yaml.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 103
+      },
+      {
+        "path": "tools/model_assets/source/recognizer/.cache/huggingface/download/preprocessor/image_processor_config.yaml.metadata",
+        "name": "image_processor_config.yaml.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 104
+      },
+      {
+        "path": "tools/model_assets/source/recognizer/.cache/huggingface/download/README.md.metadata",
+        "name": "README.md.metadata",
+        "ext": ".metadata",
+        "format": "unknown",
+        "size_bytes": 104
+      },
+      {
+        "path": "tools/model_assets/source/recognizer/.cache/huggingface/trees/21e13a0e938a37f508c66b7e63bc1820718731c0.json",
+        "name": "21e13a0e938a37f508c66b7e63bc1820718731c0.json",
+        "ext": ".json",
+        "format": "config",
+        "size_bytes": 784
+      },
+      {
+        "path": "tools/model_assets/source/recognizer/.gitattributes",
+        "name": ".gitattributes",
+        "ext": "",
+        "format": "unknown",
+        "size_bytes": 1519
+      },
+      {
+        "path": "tools/model_assets/source/recognizer/model.pt",
+        "name": "model.pt",
+        "ext": ".pt",
+        "format": "pytorch",
+        "size_bytes": 37053512
+      },
+      {
+        "path": "tools/model_assets/source/recognizer/model_config.yaml",
+        "name": "model_config.yaml",
+        "ext": ".yaml",
+        "format": "config",
+        "size_bytes": 575
+      },
+      {
+        "path": "tools/model_assets/source/recognizer/preprocessor/image_processor_config.yaml",
+        "name": "image_processor_config.yaml",
+        "ext": ".yaml",
+        "format": "config",
+        "size_bytes": 153
+      },
+      {
+        "path": "tools/model_assets/source/recognizer/README.md",
+        "name": "README.md",
+        "ext": ".md",
+        "format": "unknown",
+        "size_bytes": 1023
+      }
+    ],
+    "tflite_files": [],
+    "error": null
+  },
+  "copied_to_assets": {
+    "detector": null,
+    "recognizer": null
+  },
+  "ready_for_flutter": false,
+  "notes": [
+    "Detector has no ready .tflite. Found formats: ['config', 'pytorch', 'unknown']",
+    "Recognizer has no ready .tflite. Found formats: ['config', 'pytorch', 'unknown']"
+  ],
+  "links": {
+    "detector": "https://huggingface.co/makhresearch/persian-license-plate-detector",
+    "recognizer": "https://huggingface.co/hezarai/crnn-fa-license-plate-recognition"
+  }
+}
